@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 const app = express();
 const { projects } = require('./data.json');
 const port = 3000;
@@ -27,21 +26,32 @@ app.get("/projects/:id", (req, res, next)=>{
     } else {
         const err = new Error('Not Found');
         err.status = 404;
+        console.error(`${err.status} Error: The page you are looking for was ${err.message}`);
         next(err);
     }
 });
 
-/**renders the about page */
-app.get("/about", (req, res)=>{
-    res.render("about");
+/**renders the about page 
+ * and handles first degree
+*/
+app.get("/:id", (req, res, next)=>{
+    if (req.params.id === "about") {
+        res.render("about");
+    } else {
+        const err = new Error('Not Found');
+        err.status = 404;
+        console.error(`${err.status} Error: The page you are looking for was ${err.message}`);
+        next(err);
+    }
 });
 
 /**
- * handles any other routing errors
- */
-app.use((req, res, next) => {
+ *  handles any other routing errors
+*/
+app.get("/:id/:name", (req, res, next)=>{
     const err = new Error('Not Found');
     err.status = 404;
+    console.error(`${err.status} Error: The page you are looking for was ${err.message}`);
     next(err);
 });
 
@@ -55,4 +65,4 @@ app.use((err, req, res, next) => {
 /** starts up the local server */
 app.listen(port, ()=>{
     console.log(`The application is running on port ${port}`);
-});
+})
