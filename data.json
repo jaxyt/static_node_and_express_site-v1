@@ -1,0 +1,65 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Interactive Form",
+            "description": "A fillable form that demonstrates dynamic UI",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "DOM Interaction"
+            ],
+            "live_link": "temp",
+            "github_link": "https://github.com/jaxyt/interactive-form-v1",
+            "image_urls": [
+                "./images/interactive-0.png",
+                "./images/interactive-1.png",
+                "./images/interactive-2.png",
+                "./images/interactive-3.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Hangman Game App",
+            "description": "A hangman game that built with Object Oriented design in mind",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Node .js",
+                "npm",
+                "DOM Interaction"
+            ],
+            "live_link": "temp",
+            "github_link": "https://github.com/jaxyt/oop_game-v2",
+            "image_urls": [
+                "./images/oop-0.png",
+                "./images/oop-1.png",
+                "./images/oop-2.png",
+                "./images/oop-3.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Api Request Demo",
+            "description": "An api that can pull any number of users from an api endpoint and filter them dynamically",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Node .js",
+                "npm",
+                "API's"
+            ],
+            "live_link": "temp",
+            "github_link": "https://github.com/jaxyt/public_api_request-v1",
+            "image_urls": [
+                "./images/public-api-0.png",
+                "./images/public-api-1.png",
+                "./images/public-api-2.png",
+                "./images/public-api-3.png"
+            ]
+        }
+    ]
+}

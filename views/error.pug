@@ -1,0 +1,10 @@
+extends layout
+
+block content
+
+    h1= `${error.message} - Status: ${error.status}`
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back
+    .paper
+        pre.stack-trace= error.stack
+    .tear
