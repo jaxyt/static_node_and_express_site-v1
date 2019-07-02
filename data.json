@@ -10,13 +10,13 @@
                 "JavaScript",
                 "DOM Interaction"
             ],
-            "live_link": "temp",
+            "live_link": "https://jaxyt.github.io/interactive-form-v1/",
             "github_link": "https://github.com/jaxyt/interactive-form-v1",
             "image_urls": [
-                "./images/interactive-0.png",
-                "./images/interactive-1.png",
-                "./images/interactive-2.png",
-                "./images/interactive-3.png"
+                "/static/images/interactive-0.png",
+                "/static/images/interactive-1.png",
+                "/static/images/interactive-2.png",
+                "/static/images/interactive-3.png"
             ]
         },
         {
@@ -31,13 +31,13 @@
                 "npm",
                 "DOM Interaction"
             ],
-            "live_link": "temp",
+            "live_link": "https://jaxyt.github.io/oop_game-v2/",
             "github_link": "https://github.com/jaxyt/oop_game-v2",
             "image_urls": [
-                "./images/oop-0.png",
-                "./images/oop-1.png",
-                "./images/oop-2.png",
-                "./images/oop-3.png"
+                "/static/images/oop-0.png",
+                "/static/images/oop-1.png",
+                "/static/images/oop-2.png",
+                "/static/images/oop-3.png"
             ]
         },
         {
@@ -52,13 +52,13 @@
                 "npm",
                 "API's"
             ],
-            "live_link": "temp",
+            "live_link": "https://jaxyt.github.io/public_api_request-v1/",
             "github_link": "https://github.com/jaxyt/public_api_request-v1",
             "image_urls": [
-                "./images/public-api-0.png",
-                "./images/public-api-1.png",
-                "./images/public-api-2.png",
-                "./images/public-api-3.png"
+                "/static/images/public-api-0.png",
+                "/static/images/public-api-1.png",
+                "/static/images/public-api-2.png",
+                "/static/images/public-api-3.png"
             ]
         }
     ]

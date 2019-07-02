@@ -8,6 +8,8 @@ app.set("view engine", "pug");
 
 app.use("/static", express.static("./public"));
 
+app.use(express.static('./images'))
+
 app.get("/", (req, res)=>{
     res.locals.projects = projects;
     res.render("index");

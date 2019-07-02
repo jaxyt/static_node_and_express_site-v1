@@ -1,6 +1,15 @@
 
+html, body ,a{
+	background:#000000;
+	color:#00FF00;
+	font-family:monospace;
+	text-decoration:  none;
+}
+
+
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+  color:#00FF00;
 }
 
   h5{
@@ -13,13 +22,14 @@ h1,h2,h3,h4,h5,p{
   h6{
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
+    color:#00FF00;
     text-transform: uppercase;
     font-weight: 600;
   }
 
   p{
     font-size: 15px;
-    color: #666;
+    color:#00FF00;
   }
 
 .round{
@@ -27,23 +37,25 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color:#00FF00;
 }
 
 .button{
   background-color: #333;
+  color:#00FF00;
 }
 
 .button:hover{
-  background-color: #111;
-}
-
-a{
+  background-color: #00FF00; 
   color: #333;
 }
 
+a{
+  color:#00FF00;
+}
+
 a:hover{
-  color: #111;
+  color:rgb(255, 0, 0);
 }
 
 .image{
@@ -65,13 +77,13 @@ a:hover{
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color:#00FF00;
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color:#00FF00;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,7 +91,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: rgb(255, 0, 0);
   }
 
 .portfolio-breadcrumb{
@@ -142,7 +154,7 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color:#00FF00;
 }
 
 .portfolio-bio{
