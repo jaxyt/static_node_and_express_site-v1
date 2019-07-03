@@ -32,7 +32,7 @@ app.get("/projects/:id", (req, res, next)=>{
 });
 
 /**renders the about page 
- * and handles first degree
+ * and handles first degree routing errors
 */
 app.get("/:id", (req, res, next)=>{
     if (req.params.id === "about") {
