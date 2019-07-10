@@ -2,6 +2,44 @@
     "projects": [
         {
             "id": 0,
+            "project_name": "List Pagination",
+            "description": "breaks up a large list of student objects into pages which are then rendered as page links",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "DOM Interaction"
+            ],
+            "live_link": "https://jaxyt.github.io/list_pagination_and_filtering_v2/",
+            "github_link": "https://github.com/jaxyt/list_pagination_and_filtering_v2/",
+            "image_urls": [
+                "/static/images/pagin-0.png",
+                "/static/images/pagin-1.png",
+                "/static/images/pagin-2.png",
+                "/static/images/pagin-3.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "randomly selects a quote from a database and displays the quote and its properties on-screen",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "DOM Interaction"
+            ],
+            "live_link": "https://jaxyt.github.io/a_random_quote_generator-v1/",
+            "github_link": "https://github.com/jaxyt/a_random_quote_generator-v1",
+            "image_urls": [
+                "/static/images/quote-0.png",
+                "/static/images/quote-1.png",
+                "/static/images/quote-2.png",
+                "/static/images/quote-3.png"
+            ]
+        },
+        {
+            "id": 2,
             "project_name": "Interactive Form",
             "description": "A fillable form that demonstrates dynamic UI",
             "technologies": [
@@ -20,7 +58,7 @@
             ]
         },
         {
-            "id": 1,
+            "id": 3,
             "project_name": "Hangman Game App",
             "description": "A hangman game that built with Object Oriented design in mind",
             "technologies": [
@@ -41,7 +79,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 4,
             "project_name": "Api Request Demo",
             "description": "An api that can pull any number of users from an api endpoint and filter them dynamically",
             "technologies": [
